@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <item
+        android:id="@+id/clear_log"
+        android:orderInCategory="50"
+        android:title="Clear log"
+        android:textSize="12dp"
+        android:visible="false"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/auto_scroll"
+        android:orderInCategory="75"
+        android:title="Auto scroll"
+        android:textSize="12dp"
+        android:visible="false"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="ifRoom"/>
+
+</menu>

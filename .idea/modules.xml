@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CanlibAndroid.iml" filepath="$PROJECT_DIR$/CanlibAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CanlibAndroid.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CanlibAndroid.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CanlibAndroid.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CanlibAndroid.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CanlibAndroid.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CanlibAndroid.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CanlibAndroid.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CanlibAndroid.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/canlib/CanlibAndroid.canlib.iml" filepath="$PROJECT_DIR$/.idea/modules/canlib/CanlibAndroid.canlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/canlib/CanlibAndroid.canlib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/canlib/CanlibAndroid.canlib.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/canlib/CanlibAndroid.canlib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/canlib/CanlibAndroid.canlib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/canlib/CanlibAndroid.canlib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/canlib/CanlibAndroid.canlib.unitTest.iml" />
+    </modules>
+  </component>
+</project>

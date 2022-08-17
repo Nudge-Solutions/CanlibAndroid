@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <PreferenceCategory
+            android:key="pref_category"
+            android:title="Settings for channel 0 on device 0">
+
+            <EditTextPreference
+                android:defaultValue="125000"
+                android:inputType="number"
+                android:key="@string/preference_bitrate"
+                android:summary="Enter the bitrate in bits per second"
+                android:title="Bit rate"/>
+
+            <EditTextPreference
+                android:defaultValue="11"
+                android:inputType="number"
+                android:key="@string/preference_tseg1"
+                android:summary="Enter the number of time quanta of segment 1"
+                android:title="Time segment 1"/>
+
+            <EditTextPreference
+                android:defaultValue="4"
+                android:inputType="number"
+                android:key="@string/preference_tseg2"
+                android:summary="Enter the number of time quanta of segment 2"
+                android:title="Time segment 2"/>
+
+            <EditTextPreference
+                android:defaultValue="1"
+                android:inputType="number"
+                android:key="@string/preference_sjw"
+                android:summary="Enter a jump width in the interval 1 to 4"
+                android:title="Synchronization jump width"/>
+
+            <ListPreference
+                android:defaultValue="0"
+                android:entries="@array/driverTypeArray"
+                android:entryValues="@array/driverTypeValues"
+                android:key="@string/preference_driver_type"
+                android:summary="Set the driver output type for the channel"
+                android:title="Driver type"/>
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/preference_applytoall"
+                android:summary="Apply current channel settings to all channels."
+                android:title="Apply to all channels"/>
+
+        </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="filter_category"
+        android:title="Filter settings for channel 0 on device 0">
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/filterModeArray"
+            android:entryValues="@array/filterModeValues"
+            android:key="@string/preference_filter_mode"
+            android:summary="%s"
+            android:title="Filter mode"/>
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/filterCombinationModeArray"
+            android:entryValues="@array/filterCombinationModeValues"
+            android:key="@string/preference_filter_combination_mode"
+            android:summary="%s"
+            android:title="Filter combination mode"/>
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/filteredIdsArray"
+            android:entryValues="@array/filteredIdsValues"
+            android:key="@string/preference_filtered_ids"
+            android:summary="%s"
+            android:title="Filtered IDs"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/preference_filter_by_mask"
+            android:summary=""
+            android:title="Enable filtering by mask"/>
+
+        <EditTextPreference
+            android:defaultValue="0"
+            android:key="@string/preference_filter_mask"
+            android:dependency="@string/preference_filter_by_mask"
+            android:summary="0"
+            android:inputType="textNoSuggestions|textVisiblePassword|textCapCharacters"
+            android:digits="0123456789ABCDEF"
+            android:maxLength="8"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:title="Mask (hex)"/>
+
+        <EditTextPreference
+            android:defaultValue="0"
+            android:key="@string/preference_filter_code"
+            android:dependency="@string/preference_filter_by_mask"
+            android:summary="0"
+            android:inputType="textNoSuggestions|textVisiblePassword|textCapCharacters"
+            android:digits="0123456789ABCDEF"
+            android:maxLength="8"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:title="Code (hex)"/>
+
+        <Preference
+            android:defaultValue="0"
+            android:key="@string/preference_filter_std_bitmask"
+            android:dependency="@string/preference_filter_by_mask"
+            android:summary="0"
+            android:title="Current standard ID bitmask"/>
+
+        <Preference
+            android:defaultValue="0"
+            android:key="@string/preference_filter_ext_bitmask"
+            android:dependency="@string/preference_filter_by_mask"
+            android:summary="0"
+            android:title="Current extended ID bitmask"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/preference_filter_by_range"
+            android:summary=""
+            android:title="Enable filtering by ID range"/>
+
+        <EditTextPreference
+            android:defaultValue="0"
+            android:key="@string/preference_filter_min_id"
+            android:dependency="@string/preference_filter_by_range"
+            android:summary="0"
+            android:inputType="textNoSuggestions|textVisiblePassword|textCapCharacters"
+            android:digits="0123456789ABCDEF"
+            android:maxLength="8"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:title="Min ID (hex)"/>
+
+        <EditTextPreference
+            android:defaultValue="0"
+            android:key="@string/preference_filter_max_id"
+            android:dependency="@string/preference_filter_by_range"
+            android:summary="0"
+            android:inputType="textNoSuggestions|textVisiblePassword|textCapCharacters"
+            android:digits="0123456789ABCDEF"
+            android:maxLength="8"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:title="Max ID (hex)"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="driverTypeArray">
+        <item>Normal</item>
+        <item>Off</item>
+        <item>Silent</item>
+        <item>Self reception</item>
+    </string-array>
+
+    <string-array name="driverTypeValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="filterCombinationModeArray">
+        <item>AND</item>
+        <item>OR</item>
+    </string-array>
+
+    <string-array name="filterCombinationModeValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="filteredIdsArray">
+        <item>Standard</item>
+        <item>Extended</item>
+        <item>Both</item>
+    </string-array>
+
+    <string-array name="filteredIdsValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="filterModeArray">
+        <item>Pass</item>
+        <item>Stop</item>
+    </string-array>
+
+    <string-array name="filterModeValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support.test.espresso:espresso-core:2.2.1@aar">
+    <CLASSES>
+      <root url="file://C:/Gradle/gradle-6.7/bin/caches/transforms-3/a2d5579525683066bc7e5050281c57dd/transformed/espresso-core-2.2.1/res" />
+      <root url="file://C:/Gradle/gradle-6.7/bin/caches/transforms-3/6b3dbf33bf054161ac8f8dedb52c71da/transformed/espresso-core-2.2.1/res" />
+      <root url="jar://C:/Gradle/gradle-6.7/bin/caches/transforms-3/6b3dbf33bf054161ac8f8dedb52c71da/transformed/espresso-core-2.2.1/jars/classes.jar!/" />
+      <root url="file://C:/Gradle/gradle-6.7/bin/caches/transforms-3/6b3dbf33bf054161ac8f8dedb52c71da/transformed/espresso-core-2.2.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/Gradle/gradle-6.7/bin/caches/modules-2/files-2.1/com.android.support.test.espresso/espresso-core/2.2.1/704780163dcaf91793ee5d090edd22de70a62174/espresso-core-2.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://C:/Gradle/gradle-6.7/bin/caches/modules-2/files-2.1/com.android.support.test.espresso/espresso-core/2.2.1/a35105f95495a872e94398eae75a4ef008d43b29/espresso-core-2.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

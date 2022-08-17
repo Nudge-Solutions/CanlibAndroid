@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support.test.espresso:espresso-idling-resource:2.2.1@aar">
+    <CLASSES>
+      <root url="file://C:/Gradle/gradle-6.7/bin/caches/transforms-3/feddb3f100c4223d860bd80c5644a9a4/transformed/espresso-idling-resource-2.2.1/res" />
+      <root url="jar://C:/Gradle/gradle-6.7/bin/caches/transforms-3/5710f74297a76d22632e2d95a7a6dcfb/transformed/espresso-idling-resource-2.2.1/jars/classes.jar!/" />
+      <root url="file://C:/Gradle/gradle-6.7/bin/caches/transforms-3/5710f74297a76d22632e2d95a7a6dcfb/transformed/espresso-idling-resource-2.2.1/res" />
+      <root url="file://C:/Gradle/gradle-6.7/bin/caches/transforms-3/5710f74297a76d22632e2d95a7a6dcfb/transformed/espresso-idling-resource-2.2.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/Gradle/gradle-6.7/bin/caches/modules-2/files-2.1/com.android.support.test.espresso/espresso-idling-resource/2.2.1/30eedf1ca6b2e1d8583c36135ffd022d1a893eab/espresso-idling-resource-2.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://C:/Gradle/gradle-6.7/bin/caches/modules-2/files-2.1/com.android.support.test.espresso/espresso-idling-resource/2.2.1/cb79a69cb3f82449459290c623009a9ad6b5ee36/espresso-idling-resource-2.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

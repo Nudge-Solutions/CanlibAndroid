@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support.test:runner:0.4.1@aar">
+    <CLASSES>
+      <root url="file://C:/Gradle/gradle-6.7/bin/caches/transforms-3/a05f71a99bacc210ec1072018c44c8a3/transformed/runner-0.4.1/res" />
+      <root url="file://C:/Gradle/gradle-6.7/bin/caches/transforms-3/accaafb3389a553a838fd88316301239/transformed/runner-0.4.1/res" />
+      <root url="jar://C:/Gradle/gradle-6.7/bin/caches/transforms-3/accaafb3389a553a838fd88316301239/transformed/runner-0.4.1/jars/classes.jar!/" />
+      <root url="file://C:/Gradle/gradle-6.7/bin/caches/transforms-3/accaafb3389a553a838fd88316301239/transformed/runner-0.4.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/Gradle/gradle-6.7/bin/caches/modules-2/files-2.1/com.android.support.test/runner/0.4.1/ac3fa99264287e5c00a2d556ae811a739112451f/runner-0.4.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://C:/Gradle/gradle-6.7/bin/caches/modules-2/files-2.1/com.android.support.test/runner/0.4.1/fd98ed5ff10334a553218b6f388cdd57e3224a9e/runner-0.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

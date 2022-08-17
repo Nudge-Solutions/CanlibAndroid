@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CanLibDemo</string>
+
+    <string name="selected_device">selected_device</string>
+    <string name="selected_channel">selected_channel</string>
+
+    <string name="preference_enablevirtual">preference_enablevirtual</string>
+    <string name="preference_bitrate">preference_bitrate</string>
+    <string name="preference_tseg1">preference_tseg1</string>
+    <string name="preference_tseg2">preference_tseg2</string>
+    <string name="preference_sjw">preference_sjw</string>
+    <string name="preference_num_sampling_points">preference_num_sampling_points</string>
+    <string name="preference_driver_type">preference_driver_type</string>
+    <string name="preference_applytoall">preference_applytoall</string>
+
+    <string name="preference_filter_by_mask">preference_filter_by_mask</string>
+    <string name="preference_filter_by_range">preference_filter_by_range</string>
+    <string name="preference_filter_combination_mode">preference_filter_combination_mode</string>
+    <string name="preference_filtered_ids">preference_filtered_ids</string>
+    <string name="preference_filter_mask">preference_filter_mask</string>
+    <string name="preference_filter_code">preference_filter_code</string>
+    <string name="preference_filter_std_bitmask">preference_filter_std_bitmask</string>
+    <string name="preference_filter_ext_bitmask">preference_filter_ext_bitmask</string>
+    <string name="preference_filter_min_id">preference_filter_min_id</string>
+    <string name="preference_filter_max_id">preference_filter_max_id</string>
+    <string name="preference_filter_mode">preference_filter_mode</string>
+
+</resources>
